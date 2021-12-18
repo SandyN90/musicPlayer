@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <h1 id="mainId">Music Player</h1>
+    <div class="main_container">
+        <h1 id="heading">Music Player</h1>
+        <div class="img"><img src="img/music2.jpg" alt="" id="image"></div>
+        <div class="small_container">
+            <div class="media_controller_img">
+                <img src="img/previous.png" alt="" id="previous">
+                <img src="img/download.jpg" alt="" id="play">
+                <img src="img/pause.jpg" alt="" id="pause">
+                <img src="img/stop.png" alt="" id="stop">
+                <img src="img/next.png" alt="" id="next">
+            </div>
+            <div class="media_controller">
+                <div class="seek">
+                    <div class="preTime"><p id="currTime">0.00</p></div>
+                    <input type="range" id="seeking" value="0">
+                    <div class="time"><p id="totalDuration">0.00</p></div>
+                </div>
+                <div id="soundController">
+                    <div class="sound">
+                        <img src="img/faviocnSound.png" alt="..." id="faviconSound">
+                        <input type="range" id="volume" value="20">
+                        <div>
+                            <p id="volumeValue">205</p>
+                        </div>
+                    </div>  
+                </div>    
+            </div>
+        </div>
+    </div>
+    <audio src="music/music-1.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
