@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainId{
+    position: relative;
+    margin-top: 2vh;
+    left: 43%;
+}
+.main_container{
+    width: 75vh;
+    height: 80vh;
+    margin: auto;
+    background: linear-gradient(45deg,red, blue);
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.main_container h1{
+    display: inline-block;
+    color: pink;
+    margin-top: 5vh;
+}
+
+.img{
+    width: 40vh;
+    height: 50vh;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#faviconSound{
+    width: 20px;
+    height: 20px;
+}
+#play{
+    cursor: pointer;
+}
+#pause{
+    display: none;
+    cursor: pointer;
+}
+#stop{
+    cursor: pointer;
+}
+#next{
+    background-color: white;
+    cursor: pointer;
+}
+#previous{
+    cursor: pointer;
+}
+#soundController img{
+    /* display: inline; */
+    margin: 0;
+    
+    /* justify-content: space-around; */
+}
+#soundController{
+    display: inline-flex;
+    
+    margin-left: 16vh
+}
+#soundController input{
+    margin-left: 2vh;
+    width: 10vh;
+}
+
+
+/* This css for seek bar */
+.preTime{
+    display: inline-flex;
+    margin-left: 14vh;
+}
+.preTime p{
+    margin-right: 2vh;
+}
+#seeking{  
+    width: 40vh;
+    /* margin-left: 15vh; */
+}
+.seek{
+    display: inline-flex;
+}
+.seek p{
+    color: white;
+}
+.time{
+    width: 5vh;
+    height: 3vh;
+    margin-left: 2vh;
+    /* border: 1px solid black; */
+    
+}
+
+.sound{
+    display: inline-flex;
+}
+.sound div p{
+    margin-left: 2vh;
+    color: white;
+}
+.img img{
+    position: relative;
+    width: 40vh;
+    height: 40vh;
+    margin: 5vh 0;
+    border-radius: 10px;
+}
+.small_container{
+    margin-top: 7px;
+}
+.small_container_img{
+
+}
+.media_controller_img img{
+    width: 20px;
+    height: 20px;
+}
+.media_controller_img img:hover{
+    
+    height: 19px;
+    transition: height 1ms;
+}
+.media_controller{
+    display: grid;
+    
+}
+
+/* #volume{
+    width: 10vh;
+    margin-top: 2vh;
+    margin-left: 20vh;
+} */
